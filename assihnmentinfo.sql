@@ -8,7 +8,7 @@ CREATE TABLE OnlineGames (
     ReleaseYear INT,
     Multiplayer BOOLEAN,
     Rating FLOAT,
-    Developer VARCHAR(100)
+    Developer VARCHAR(50)
 );
 CREATE TABLE Spar (
     SparID INT PRIMARY KEY,
